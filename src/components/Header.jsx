@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { IoIosMenu, IoMdClose } from "react-icons/io";
+import { IoIosMenu } from "react-icons/io";
+import { IoMdClose } from "react-icons/io";
 
 export default function Header() {
   // State for Toggle

@@ -17,7 +17,7 @@ export default function NewsLetter() {
               className="px-3 py-2 mr-2 mb-2 bg-slate-100 rounded md:inline-block"
               placeholder="Email"
             />
-            <button className=" md:inline-block text-white bg-black border-0 p-2  focus:outline-none  rounded text-lg text-center">
+            <button className=" md:inline-block bg-black text-[#743671] border-0 p-2  focus:outline-none  rounded text-lg text-center">
               Get Started
             </button>
             <br />

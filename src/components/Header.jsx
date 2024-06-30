@@ -36,7 +36,7 @@ export default function Header() {
 
           {/* ........Responsive Menu........ */}
           <ul
-            className={`md:hidden fixed bg-[#dd99d9] text-white top-[68px] h-screen w-full duration-300
+            className={`md:hidden fixed bg-black text-white top-[68px] h-screen w-full duration-300
                 ${toggle ? "left-[0]" : "left-[-100%]"}
                 
                 `}

@@ -1,23 +1,23 @@
 export default function NewsLetter() {
   return (
     <>
-      <div className="w-full bg-[#b773b2] md:px-20">
+      <div className="w-full bg-[#b773b2] md:px-20 my-20">
         <div className="md:flex mx-w-[1240px] mx-auto justify-between items-center py-[50px]">
-          <div className="m-3">
+          <div className="m-5">
             <h1 className="md:text-3xl text-xl font-bold text-white mb-2">
-              Want to Learn It Skills?
+              Want to Learn IT Skills?
             </h1>
             <span className="text-white text-sm">
               Sign up to our newsletter and upto date{" "}
             </span>
           </div>
-          <div className="m-3 flex flex-col">
+          <div className="m-5 flex flex-col ">
             <input
               type="email"
-              className="px-3 py-2 mr-2 mb-2 bg-slate-100 rounded"
+              className="px-3 py-2 mr-2 mb-2 bg-slate-100 rounded md:inline-block"
               placeholder="Email"
             />
-            <button className="inline-flex text-white bg-black border-0 p-2  focus:outline-none hover:bg-[#743671] rounded text-lg text-center">
+            <button className=" md:inline-block text-white bg-black border-0 p-2  focus:outline-none  rounded text-lg text-center">
               Get Started
             </button>
             <br />
